@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      body::-webkit-scrollbar{
+        width:0px;
+        height: 0px;
+      }
+      .masai {
+        /* border:1px solid black; */
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fedfe5;
+        gap: 13px;
+      }
+      .para {
+        font-size: 17px;
+        font-family: Roboto;
+        font-weight: bolder;
+      }
+      .c {
+        background-color: #ed0331;
+        color: white;
+        width: 8%;
+        height: 37px;
+        border: 0px;
+        border-radius: 10px;
+        font-weight: bolder;
+      }
+      .c:hover {
+        cursor: pointer;
+        background-color: #c20000;
+      }
+
+      .nav {
+        border-bottom: 1px solid black;
+        height: 100px;
+        top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .pic {
+        /* border:1px solid red; */
+        height: 50px;
+        width: 12%;
+        padding-left: 40px;
+      }
+      .ul {
+        border: 0px;
+        width: 70%;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
+        padding: 0px;
+      }
+      .li {
+        list-style-type: none;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: bolder;
+        background-color: white;
+        border-radius: 10px;
+        height: 35px;
+        line-height: 35px;
+      }
+      .a {
+        padding: 4px 6px;
+        color: black;
+        text-decoration: none;
+        border: 0px;
+        border-radius: 6px;
+      }
+      .a:hover {
+        cursor: pointer;
+        background-color: #fffafb;
+        color: red;
+      }
+      .ref {
+        /* border:1px solid green; */
+        width: 18%;
+        height: 50px;
+        padding-top: 7px;
+      }
+      .button {
+        height: 35px;
+        border: 0px;
+        border-radius: 7px;
+        background-color: #e5feff;
+        color: #7276ce;
+        font-weight: bolder;
+      }
+      .button:hover {
+        cursor: pointer;
+        background-color: rgb(204, 228, 236);
+      }
+      .button2 {
+        height: 35px;
+        border: 1px solid red;
+        border-radius: 7px;
+        font-weight: bolder;
+        background-color: white;
+        color: red;
+      }
+      .button2:hover {
+        cursor: pointer;
+        background-color: #fedfe5;
+      }
+      .big {
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid black; */
+        height: 375px;
+      }
+      .n1 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        /* border: 1px solid red; */
+        height: 355px;
+        width: 50%;
+      }
+      .pro {
+        font-size: 50px;
+        font-family: Kanit;
+        color: #7276ce;
+        line-height: 60px;
+        padding-left: 12%;
+        padding-top: 10%;
+        margin: 0px;
+      }
+      .sub {
+        font-size: 25px;
+        font-family: Kanit;
+        color: #7276ce;
+        padding-left: 12%;
+        padding-bottom: 15px;
+        margin: 0px;
+      }
+      .apply {
+        border: 0px;
+        border-radius: 10px;
+        width: 22%;
+        height: 47px;
+        background-color: #ed0331;
+        color: white;
+        margin-left: 77px;
+        padding-top: 5px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+      }
+      .apply:hover{
+        cursor: pointer;
+        background-color: #c20000;
+      }
+      .n2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 50%;
+        height: 355px;
+        padding-right: 25px;
+      }
+      .vid{
+        border: 1px solid black;
+        border-radius: 15px;
+         
+      }
+      .hi{
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid black; */
+        height: 300px;
+        
+        
+
+        /* background-color: blue; */
+      }
+      .in{
+        /* border:1px solid red; */
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-family: Kanit;
+        background-color:#3470e4 ;
+        color: white;
+        margin: 0px;
+        padding-bottom:20px;
+      }
+      .h1{
+        margin-top:15px;
+        font-size:35px ;
+      }
+      .para{
+        margin:0px;
+        line-height: 0px;;
+      }
+      .in2{
+        /* border:1px solid green; */
+        background-color: #3470e4;
+        width:100%;
+        height:100px;
+        margin:0px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+        
+      }
+      .mid{
+        font-family: kanit;
+        font-size: 55px;
+        text-align: center;
+        font-weight: bolder;
+        margin:0px;
+        color: white;
+        line-height: 45px;;
+      }
+      .mid2{
+        text-align: center;
+        font-family: Roboto;
+        font-weight: bolder;
+        color:white;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="masai">
+      <p class="para">Admissions for our 22nd Jan 2024 batch have begun.</p>
+      <button class="c">APPLY NOW</button>
+    </div>
+
+    <nav class="nav">
+      <div class="pic">
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png"
+          alt="logo"
+        />
+      </div>
+      <ul class="ul">
+        <li class="li"><a href="#" class="a">COURSES</a></li>
+        <li class="li"><a href="#" class="a">FEES</a></li>
+        <li class="li"><a href="#" class="a">EVENTS</a></li>
+        <li class="li"><a href="#" class="a">LEARN</a></li>
+        <li class="li"><a href="#" class="a">SUCCESS STORIES</a></li>
+        <li class="li"><a href="#" class="a">HIRE FROM US</a></li>
+      </ul>
+      <div class="ref">
+        <button class="button">REFER & EARN</button>
+        <button class="button2">SIGN UP</button>
+      </div>
+    </nav>
+
+    <div class="big">
+      <div class="n1">
+        <h2 class="pro">Proof that dreams do come true</h2>
+        <h3 class="sub">A testament to what’s possible</h3>
+        <button class="apply">APPLY NOW</button>
+      </div>
+      <div class="n2">
+        <iframe width="560" height="315"src="https://www.youtube.com/embed/0867JeIfyLY?si=njONhapEiuHRv4oR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="vid"></iframe></p>
+      </div>
+    </div>
+
+    <div class="hi">
+      <div class="in"><h1 class="h1">How is Masai Creating an Impact?</h1>
+      <p class="para">4000 students placed across 1000+ companies</p></div>
+      <div class="in2">
+        <div><p class="mid">4000+</p>
+        <p class="mid2">Hiring partners</p></div>
+        <div><p class="mid">6.9 LPA</p>
+        <p  class="mid2">Average CTC</p></div>
+        <div><p class="mid">6,000</p>
+        <p class="mid2">Current Enrolled Students</p></div>
+        <div><p class="mid">94%</p>
+        <p class="mid2">Placement Rate</p></div>
+       </div>
+
+    </div>
+  </body>
+</html>
